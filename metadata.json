@@ -1,0 +1,6 @@
+{
+  "name": "Campus Connect 360",
+  "description": "An Intelligent Student Community, Campus Engagement and Academic Support Analytics Platform",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,64 @@
+======================================================================
+CAMPUS CONNECT 360 - ACADEMIC PROJECT VERIFICATION CHECKLIST
+======================================================================
+Course: B.Tech / M.Tech Computer Science & Engineering
+Project Title: CAMPUS CONNECT 360: An Intelligent Student Community,
+               Campus Engagement and Academic Support Analytics Platform
+
+FUNCTIONAL TESTS & RESULTS:
+----------------------------------------------------------------------
+[PASSED] 1. Responsive Navigation Bar:
+   - Verified 3-zone contract, responsive hamburger menu, and quick role switcher.
+
+[PASSED] 2. User Authentication & Hashing:
+   - Registration creates users with role, department, identifier.
+   - SHA-256 hashing simulation active on passwords.
+   - Duplicate email registrations prevented with error messages.
+
+[PASSED] 3. Student Dashboard:
+   - Displays student identifier, registered events summary, e-pass codes.
+   - Displays academic study notes recommended for student's department.
+
+[PASSED] 4. Campus Events & Duplicate Prevention:
+   - Events display date, time, venue, and live seat fill bars.
+   - Registering generates unique ticket token (e.g. TKT-HAC-84920).
+   - Re-clicking register shows "Registered · Pass Confirmed".
+
+[PASSED] 5. Academic Resource Centre:
+   - Filtering by department (CSE, ECE, MECH, etc.) and semester (1-8).
+   - Category filtering across Lecture Notes, Question Papers, Lab Manuals.
+   - In-app preview modal and verified file download.
+
+[PASSED] 6. Career & Opportunities Portal:
+   - Vetted internships, research fellowships, and scholarships.
+   - Deadlines highlighted with urgency indicators.
+   - Direct application portal and bookmarking.
+
+[PASSED] 7. Faculty Workspace & Publishing:
+   - Notice broadcasting to cohorts.
+   - Event creation with seat limits.
+   - Study material upload with metadata.
+   - Real-time student event registrations monitoring roster.
+
+[PASSED] 8. Institutional Administrator Console:
+   - High-level metric cards (Users, Events, Registrations, Resources).
+   - Complete User Registry table with search and role filters.
+   - Content moderation and immutable audit activity ledger.
+
+[PASSED] 9. Institutional Analytics (Python, Pandas & Chart.js):
+   - Department-wise User Distribution (Doughnut).
+   - Event Registrations vs Capacity (Bar).
+   - Semester Engagement Trajectory (Line with fill).
+   - Pandas groupby and aggregation inspector with real database state.
+   - CSV export capability for report submission.
+
+[PASSED] 10. University FAQ Assistant:
+   - Free-form keyword search across campus regulations.
+   - Category filters and expandable answers without external paid APIs.
+
+[PASSED] 11. Responsive Design:
+   - Tested on Desktop (1440px), Laptop (1024px), Tablet (768px), Mobile (375px).
+   - Zero pill clutter on metadata, WCAG AA contrast compliance.
+======================================================================
+All 11 functional modules tested and verified. Ready for evaluation.
+======================================================================
